@@ -1,0 +1,132 @@
+main{
+  display: flex;
+  flex-direction: column;
+}
+
+.colonnes{
+  display: flex;
+  flex-direction: row;
+}
+.colonne1{
+  width: 50%;
+  
+}
+.colonne2{
+  width: 50%;
+}
+
+h1{
+  font-size: 29px;
+  color: rgb(39, 86, 98);
+}
+
+h2 {
+  font-size: 36px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+h3 {
+  font-size: 22px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  color: rgb(39, 86, 98);
+}
+
+.eta {
+  font-size: 18px;
+  color: rgb(55, 163, 166);
+}
+
+.ville {
+  font-style: italic;
+  color: cadetblue;
+}
+
+.logiciels{
+  display :flex;
+  flex-direction: row;
+}
+
+.nom_logiciel{
+  width: 30%;
+}
+
+.jauge_logiciel{
+  width: 70%;
+}
+
+
+.rectangle1 {
+  margin-top: -35px;
+  width: 400px;
+  height: 25px;
+  background: rgb(52, 125, 143);
+}
+
+.rectangle2 {
+  margin-top: -35px;
+  width: 400px;
+  height: 25px;
+  background: rgb(55, 163, 166);
+}
+.rectangle3 {
+  margin-top: -35px;
+  width: 400px;
+  height: 25px;
+  background: rgb(113, 222, 225);
+}
+.rectangle4 {
+  margin-top: -35px;
+  width: 400px;
+  height: 25px;
+  background: rgb(173, 253, 255);
+}
+.rectangle5 {
+  margin-top: -35px;
+  width: 400px;
+  height: 25px;
+  background: rgb(205, 238, 239);
+}
+.resume{
+  font-style: italic, ;
+  text-align: center;
+  color: rgb(39, 86, 98);
+
+}
+
+.infos {
+  float: left;
+  width: 75%;
+}
+
+.info2 {
+  margin-top: 0;
+  margin-bottom: 0px;
+  text-align: center;
+  font-size: 30px;
+  color: rgb(39, 86, 98);
+}
+.info3 {
+  float: left;
+  width: 50%;
+  margin-top: 10px;
+}
+
+.decalle {
+  margin-left: 100px;
+}
+
+.photo{
+  margin: 10px;
+}
+
+body{
+  width: 1000px;
+  border-color: blue;
+  border: solid;
+  border-radius: 20px;
+  padding: 20px;
+  margin :auto
+
+}
